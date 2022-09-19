@@ -6,10 +6,11 @@
   "scripts": {
     "server": "npx hardhat node",
     "compile": "npx hardhat compile",
+    "solhint": "./node_modules/.bin/solhint 'contracts/**/*.sol'",
     "test": "npx hardhat --network local test ./tests/PortionNFT.js"
   },
   "author": "Arash <a.karimzadeh@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@alch/alchemy-web3": "^1.4.6",
     "@openzeppelin/contracts": "^4.7.3",
@@ -19,7 +20,16 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.1.1",
     "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-mocha": "^10.1.0",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
     "ethers": "^5.0.0",
-    "hardhat": "^2.11.1"
-  }
+    "hardhat": "^2.11.1",
+    "solhint": "^3.3.7"
+  },
+  "repository": "git@github.com:Portionship/contracts.git"
 }
