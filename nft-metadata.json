@@ -1,0 +1,48 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Bedrooms",
+            "value": 1
+        },
+        {
+            "trait_type": "Bathrooms",
+            "value": 1
+        },
+        {
+            "trait_type": "Parking",
+            "value": 1
+        },
+        {
+            "trait_type": "Unit No.",
+            "value": "2"
+        },
+        {
+            "trait_type": "Street No.",
+            "value": "12"
+        },
+        {
+            "trait_type": "Address",
+            "value": "York st. Sydney 2000"
+        },
+        {
+            "trait_type": "Postal Code",
+            "value": "2000"
+        },
+        {
+            "trait_type": "City",
+            "value": "Sydney"
+        },
+        {
+            "trait_type": "Country",
+            "value": "Australia"
+        },
+        {
+            "trait_type": "Portion #",
+            "value": 1
+        }
+    ],
+    "description": "Australia, Sydney, Unit 2",
+    "image": "ipfs://image",
+    "external_url": "https://portionship.com/model",
+    "name": "Portionship"
+}

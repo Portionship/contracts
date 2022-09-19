@@ -1,0 +1,25 @@
+{
+  "name": "portionship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx hardhat node",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat --network local test ./tests/PortionNFT.js"
+  },
+  "author": "Arash <a.karimzadeh@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.6",
+    "@openzeppelin/contracts": "^4.7.3",
+    "alchemy-sdk": "^2.0.4",
+    "dotenv": "^16.0.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "chai": "^4.3.6",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.11.1"
+  }
+}
